@@ -1,13 +1,28 @@
+/* Letra do "olá" e subtítulo*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;900&family=Noto+Sans+SC:wght@100;300;900&display=swap');
+
+h1{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+}
+#subtitulo{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 30px;
+}
+
 .foto-perfil {
     border-radius: 100%;
     display: inline-block;
     max-width: 500px;
     border: 1px solid white;
     
-    
-    
+      
 }
-
+header{
+    margin-top: 30px;
+   
+}
 body{
     background-color: #f3f3f3;
 }
@@ -18,8 +33,8 @@ body{
 .circulo{
     border-radius: 50%;
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border: 1px solid #000000;
         
 }
@@ -29,6 +44,7 @@ body{
 }
 #circulo1{
     background-color: #EEA302;
+    
 }
 #circulo2{
    background-color:#FF3B25;
@@ -38,4 +54,6 @@ body{
 }
 .texto-circulo{
     text-align: center;
+    line-height: 120px;
+
 }
