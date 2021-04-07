@@ -3,6 +3,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+
+header{
+    display: flex;
+    gap:10px;
+    margin-left: 40px;
+}
+#circulo-nome{
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #EEA302;
+    margin-top: 3px;
+}
+
 h1{
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 80px;
@@ -33,6 +48,7 @@ header{
 }
 body{
     background-color: #f3f3f3;
+    color:#212529;
 }
 
 #central{
@@ -43,9 +59,14 @@ body{
     display: inline-block;
     height: 120px;
     width: 120px;
-    border: 1px solid #000000;
-    
-        
+    border: 1px solid #212529;
+    color:#212529;
+    text-decoration: none;
+          
+}
+.circulo:hover{
+    background-color: #fafafa;
+    color: #212529;
 }
 
 #buttons{
@@ -53,14 +74,14 @@ body{
     display: flex;
     justify-content: space-around;
 }
-#circulo1{
+.circulo1{
     background-color: #EEA302;
-    
 }
-#circulo2{
+
+.circulo2{
    background-color:#FF3B25;
 }
-#circulo3{
+.circulo3{
     background-color: #80D8DA;
 }
 .texto-circulo{
@@ -86,6 +107,7 @@ footer{
     font-family: 'Noto Sans SC', sans-serif;
     font-weight: 700;
     font-size: 17px;
+    padding-bottom: 0px;
 }
 p{
     font-family: 'Noto Sans SC', sans-serif;
