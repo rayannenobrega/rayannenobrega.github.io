@@ -1,9 +1,28 @@
 .foto-perfil {
     border-radius: 100%;
     max-width: 200px;
-    border: 1px solid black;
+    border: 1px solid white
 }
 
 body{
-    background-color: #f7f7f7;
+    background-color: #f3f3f3;
+}
+.circulo{
+    border-radius: 100%;
+    max-width: 100px;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+    
+}
+#circulo1{
+    background-color: #EEA302;
+}
+#circulo2{
+   background-color:#FF3B25;
+}
+#circulo3{
+    background-color: #80D8DA;
+}
+.texto-circulo{
+    text-align: center;
 }
