@@ -165,3 +165,11 @@ i{
 .texto{
     text-align: justify;
 }
+
+/* Classes específicas da terceira página*/
+.boxcontato{
+    margin-top: 80px;
+}
+#contato{
+    font-size: 40px;
+}
