@@ -17,6 +17,10 @@ header{
     background-color: #EEA302;
     margin-top: 3px;
 }
+#conteudo-inicial{
+    min-height: 75vh;
+    padding-top: 150px;
+}
 
 h1{
     font-family: 'Noto Sans SC', sans-serif;
@@ -58,11 +62,9 @@ a:hover{
 body{
     background-color: #f3f3f3;
     color:#212529;
+    overflow-x: hidden;
 }
 
-#central{
-    margin-top: 150px;
-}
 .circulo{
     border-radius: 50%;
     display: inline-block;
@@ -103,18 +105,13 @@ body{
 
 }
 
-@media (min-width: 960px)
-{
-    .pos-absolute{
-        position: absolute;
-    }
-}
 
 footer{
     border-top: 1px solid #C7C7C7;
     bottom: 0;
     width: 100%;
     height: 100px;
+    margin-top: 40px;
     
     
 }
