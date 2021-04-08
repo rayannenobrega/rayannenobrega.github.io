@@ -173,3 +173,12 @@ i{
 #contato{
     font-size: 40px;
 }
+
+form{
+    margin-left: 300px;
+    margin-top: 87px;
+}
+#button-enviar{
+    margin-left: 250px;
+    margin-top:50px;
+}
